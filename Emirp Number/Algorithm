@@ -1,0 +1,30 @@
+1. Import the java.util package.
+2. Define a class named "emirp".
+3. Declare an instance variable "n" of type integer.
+4. Define a constructor "emirp(int nn)" that takes an integer parameter "nn" and assigns its value to the instance variable "n".
+5. Define a method "isprime(int m)" that takes an integer parameter "m" and checks if it is a prime number.
+    a. Declare a variable "c" and initialize it to 0. This variable will count the number of factors of "m".
+    b. Use a for loop to iterate from 1 to "m".
+    c. Inside the loop, check if "m" is divisible by the current loop variable "i" without a remainder.
+    d. If it is divisible, increment "c" by 1.
+    e. After the loop, check if "c" is equal to 2.
+    f. If it is, return 1 (indicating that "m" is a prime number), otherwise return 2.
+6. Define a method "reverse(int num)" that takes an integer parameter "num" and reverses its digits.
+    a. Declare a variable "r" and initialize it to 0. This variable will store the reversed number.
+    b. Use a for loop to iterate while "num" is greater than 0.
+    c. Inside the loop, extract the last digit of "num" using the modulus operator and store it in a variable "d".
+    d. Multiply "r" by 10 and add "d" to it, to update the reversed number.
+    e. Divide "num" by 10 to remove the last digit.
+    f. Repeat steps c to e until "num" becomes 0.
+    g. Return the reversed number "r".
+7. Define a method "check()" that checks if the number "n" is an emirp number.
+    a. Use the "isprime()" method to check if "n" is a prime number, and also use the "reverse()" method to check if the reversed number of "n" is a prime number.
+    b. If both conditions are true, print "It is an emirp number".
+    c. Otherwise, print "It is not an emirp number".
+8. Define the main method "main(String[] args)".
+    a. Create a new Scanner object "sc" to read input from the user.
+    b. Print "Enter a number" to prompt the user.
+    c. Read an integer from the user and assign it to the variable "a" using "sc.nextInt()".
+    d. Create an instance of the "emirp" class called "ob" with the value of "a" as the constructor parameter.
+    e. Call the "check()" method on the "ob" object.
+9. End of the program.
