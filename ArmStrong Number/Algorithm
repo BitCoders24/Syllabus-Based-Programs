@@ -1,0 +1,24 @@
+1. Start the program.
+2. Declare a class named "Armstrong".
+3. Inside the class, declare an integer variable "n" to store the input number.
+4. Define a constructor for the class that takes an integer parameter "nn" and assigns it to the "n" variable.
+5. Define a method named "sumofdigits" that takes an integer parameter "m" and returns an integer.
+6. Inside the method, declare an integer variable "s" and initialize it to 0.
+7. Use a loop to iterate through the digits of the number "m" from right to left:
+   a. Initialize a loop variable "i" with the value of "m".
+   b. Iterate until "i" becomes 0.
+   c. In each iteration, extract the last digit of "i" by calculating "d = i % 10".
+   d. Add the cube of the extracted digit to the sum "s" using the expression "s = s + (int)Math.pow(d, 3)".
+   e. Update the value of "i" by dividing it by 10.
+8. Return the value of "s" as the sum of the digits.
+9. Define a method named "check" that has no parameters and returns void.
+10. Inside the method, check if the sum of digits of "n" is equal to "n":
+    a. If true, print "its an armstrong number".
+    b. If false, print "its not an armstrong number".
+11. Define the main method.
+12. Create a Scanner object named "sc" to read input from the user.
+13. Print "enter a number" to prompt the user for input.
+14. Read an integer from the user and store it in the variable "l" using "sc.nextInt()".
+15. Create an object "obj" of the "Armstrong" class, passing "l" as the parameter to the constructor.
+16. Call the "check" method on the "obj" object.
+17. End the program.
