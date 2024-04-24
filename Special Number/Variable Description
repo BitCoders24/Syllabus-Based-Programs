@@ -1,0 +1,9 @@
+n: An integer to store the input number.
+nn: Another integer that represents the input number.
+a: An integer representing a number to calculate its factorial.
+f: An integer to store the factorial.
+m: An integer representing a number to calculate the sum of factorials of its digits.
+S: An integer to store the sum of factorials.
+I: A loop variable used to iterate.
+d: An integer to store the last digit of m.
+a: An integer to store the user input number in the main method.
