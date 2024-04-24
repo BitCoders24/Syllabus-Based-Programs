@@ -1,0 +1,4 @@
+n: It's like a storage box inside the DisariumNumber class to keep a number.
+num: Think of it as a temporary box just for calculations inside the check() method. It holds a copy of the number from n.
+sum: Another temporary box inside check() to add up numbers.
+power: This box in check() keeps track of the power value while going through each digit of the number.
