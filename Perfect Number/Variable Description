@@ -1,8 +1,6 @@
-Variable name: Data type - Description
-n: int - Stores the number
-num: int - Initializes n
-num: int - Parameter
-sum: int - Accumulates factors
-t: int - Stores the returned sum
-p: int - Takes input for the number
-i: int - Looping variable
+n: It's a number we're working with.
+num: Another name for the number.
+sum: The result we get after adding things up.
+t: A temporary spot to hold the sum.
+p: Another number we're using.
+i: Just a counter for looping.
