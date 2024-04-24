@@ -1,0 +1,7 @@
+n: It stores the input number.
+nn: It's a parameter representing the input number.
+m: It's the number for which the sum of digits is calculated.
+s: It stores the sum of digits.
+i: It's a loop variable used in calculations.
+d: It stores the value of the loop during iterations.
+l: It stores a value in the main method.
