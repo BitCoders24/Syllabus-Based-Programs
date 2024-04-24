@@ -1,0 +1,28 @@
+1. Import the java.util package.
+2. Define a class named "Special_Number".
+3. Declare an instance variable "n" of type integer.
+4. Define a constructor "Special_Number(int nn)" that takes an integer parameter "nn" and assigns its value to the instance variable "n".
+5. Define a method "fact(int a)" that calculates the factorial of a number.
+    a. Declare a variable "f" and initialize it to 1. This variable will store the factorial.
+    b. Use a for loop to iterate from 1 to "a".
+    c. Inside the loop, multiply "f" by the current loop variable "i".
+    d. After the loop, return the factorial "f".
+6. Define a method "sumofdigits(int m)" that calculates the sum of the factorials of the digits of a number.
+    a. Declare a variable "s" and initialize it to 0. This variable will store the sum of factorials.
+    b. Use a for loop to iterate while "m" is greater than 0.
+    c. Inside the loop, extract the last digit of "m" using the modulus operator and store it in a variable "d".
+    d. Call the "fact()" method with "d" as the parameter to calculate the factorial of "d", and add it to "s".
+    e. Divide "m" by 10 to remove the last digit.
+    f. Repeat steps c to e until "m" becomes 0.
+    g. Return the sum of factorials "s".
+7. Define a method "check()" that checks if the number "n" is a special number.
+    a. Call the "sumofdigits()" method with "n" as the parameter and compare it with "n".
+    b. If they are equal, print "Special Number".
+    c. Otherwise, print "Not a Special Number".
+8. Define the main method "main(String[] args)".
+    a. Create a new Scanner object "sc" to read input from the user.
+    b. Print "Enter a number" to prompt the user.
+    c. Read an integer from the user and assign it to the variable "x" using "sc.nextInt()".
+    d. Create an instance of the "Special_Number" class called "ob" with the value of "x" as the constructor parameter.
+    e. Call the "check()" method on the "ob" object.
+9. End of the program.
