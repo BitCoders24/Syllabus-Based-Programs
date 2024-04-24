@@ -1,0 +1,14 @@
+1. Define a class `DisariumNumber` with instance variable `n`.
+2. Initialize a constructor to set the value of `n`.
+3. Implement a method `input()` to take user input for the number and update the value of `n`.
+4. Implement a method `countDigits(num)` to count the number of digits in a given number.
+5. Implement a method `check()` to check if the number is a Disarium number based on the algorithm below:
+   a. Create a copy of the number and store it in `num`.
+   b. Initialize `sum` to 0 and `power` to the number of digits in `num`.
+   c. While `num` is greater than 0, do the following:
+      i. Extract the last digit of `num` and store it in `digit`.
+      ii. Add `digit` raised to the power of `power` to the `sum`.
+      iii. Reduce `num` by removing its last digit.
+      iv. Decrease `power` by 1.
+   d. Check if `sum` is equal to the original number `n`.
+   e. Return `true` if it is a Disarium number, otherwise return `false`.
