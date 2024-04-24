@@ -1,0 +1,8 @@
+n: A number.
+nn: Another number used in a constructor.
+m: A number used to check if it's prime.
+C: Counts factors of 'm' in a method.
+num: A number used to reverse it.
+R: Stores the reversed number.
+a: Stores a number input by the user in the main method.
+emirp_ob: Object of a class called "emirp" used to perform a specific task.
